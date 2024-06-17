@@ -1,6 +1,6 @@
 import { Box, Container, Flex, Heading, Input, InputGroup, InputLeftElement, Text, VStack, Avatar, IconButton } from "@chakra-ui/react";
-import { SearchIcon } from "@chakra-ui/icons";
-import { FaPlusCircle, FaBars } from "react-icons/fa";
+
+import { FaSearch, FaPlusCircle, FaBars } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -19,7 +19,7 @@ const Index = () => {
         </Flex>
       </Flex>
       <InputGroup mb={10}>
-        <InputLeftElement pointerEvents="none" children={<SearchIcon color="gray.300" />} />
+        <InputLeftElement pointerEvents="none" children={<FaSearch color="gray.300" />} />
         <Input type="text" placeholder="Search notes" borderRadius="full" />
       </InputGroup>
       <Flex wrap="wrap" justifyContent="space-between">

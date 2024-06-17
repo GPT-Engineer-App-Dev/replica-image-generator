@@ -1,6 +1,6 @@
 import { Box, Container, Flex, Heading, Input, InputGroup, InputLeftElement, Text, VStack, Avatar, IconButton } from "@chakra-ui/react";
-import { SearchIcon, HamburgerIcon } from "@chakra-ui/icons";
-import { FaPlusCircle } from "react-icons/fa";
+import { SearchIcon } from "@chakra-ui/icons";
+import { FaPlusCircle, FaBars } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -15,7 +15,7 @@ const Index = () => {
         <Flex alignItems="center">
           <Text mr={4}>Puneet Shakya</Text>
           <Avatar name="Puneet Shakya" src="/images/avatar.png" size="md" />
-          <IconButton aria-label="Menu" icon={<HamburgerIcon />} size="lg" variant="ghost" ml={4} />
+          <IconButton aria-label="Menu" icon={<FaBars />} size="lg" variant="ghost" ml={4} />
         </Flex>
       </Flex>
       <InputGroup mb={10}>
